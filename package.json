@@ -1,0 +1,19 @@
+{
+  "name": "island",
+  "version": "0.0.1",
+  "description": "Popular boardgame made with modern web",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyeonupark/island.git"
+  },
+  "author": "HyeonuPark",
+  "license": "MIT/Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/hyeonupark/island/issues"
+  },
+  "homepage": "https://github.com/hyeonupark/island#readme"
+}
