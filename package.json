@@ -4,7 +4,7 @@
   "description": "Popular boardgame made with modern web",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --config=scripts/webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/hyeonupark/island/issues"
   },
-  "homepage": "https://github.com/hyeonupark/island#readme"
+  "homepage": "https://github.com/hyeonupark/island#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "awesome-typescript-loader": "^3.2.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "redux": "^3.7.2",
+    "style-loader": "^0.18.2",
+    "typings-for-css-modules-loader": "^1.5.0",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
 }
