@@ -10,7 +10,7 @@ module.exports = {
     'react-hot-loader/patch',
     'webpack-dev-server/client?http://localhost:3000',
     'webpack/hot/only-dev-server',
-    resolve('src/index.ts')
+    resolve('src/index.tsx')
   ],
 
   output: {
@@ -48,6 +48,10 @@ module.exports = {
         ]
       }
     ]
+  },
+
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js']
   },
 
   devtool: 'inline-source-map',

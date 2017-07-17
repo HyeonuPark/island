@@ -9,6 +9,7 @@
         "jsx": "react",
         "moduleResolution": "node",
         "rootDir": "src",
+        "importHelpers": true,
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "noUnusedLocals": true

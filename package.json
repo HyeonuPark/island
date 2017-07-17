@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/hyeonupark/island#readme",
   "dependencies": {
+    "@types/react": "^15.0.38",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-redux": "^4.4.46",
     "autoprefixer": "^7.1.2",
     "awesome-typescript-loader": "^3.2.1",
     "css-loader": "^0.28.4",
@@ -27,6 +30,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-hot-loader": "^3.0.0-beta.7",
+    "react-redux": "^5.0.5",
     "redux": "^3.7.2",
     "style-loader": "^0.18.2",
     "tslint": "^5.5.0",
