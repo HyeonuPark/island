@@ -4,7 +4,8 @@
   "description": "Popular boardgame made with modern web",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --config=scripts/webpack.dev.js"
+    "start": "webpack-dev-server --config=scripts/webpack.dev.js",
+    "test": "tslint src/**/*.{ts,tsx} -p . --type-check"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,9 @@
     "react-hot-loader": "^3.0.0-beta.7",
     "redux": "^3.7.2",
     "style-loader": "^0.18.2",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.1",
     "typings-for-css-modules-loader": "^1.5.0",
     "webpack": "^3.2.0",
     "webpack-dev-server": "^2.5.1"
