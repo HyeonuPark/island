@@ -1,10 +1,10 @@
 import * as React from 'react'
-import {render as renderDom} from 'react-dom'
-import {Provider} from 'react-redux'
-import {createStore} from 'redux'
+import {render as renderDom } from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
 
-import {root} from './reducers/root'
-import {App} from './components/App/app'
+import { root } from './reducers/root'
+import { App } from './components/App/app'
 
 const store = createStore(root)
 const viewport = document.getElementById('viewport')
