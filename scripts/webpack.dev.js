@@ -33,15 +33,15 @@ module.exports = {
           {
             loader: 'typings-for-css-modules-loader',
             options: {
-              modules: true
+              modules: true,
+              namedExport: true
             }
           },
           {
             loader: 'postcss-loader',
             options: {
               plugins: loader => [
-                require('postcss-cssnext')(),
-                require('autoprefixer')()
+                require('postcss-cssnext')()
               ]
             }
           }

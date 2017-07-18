@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 
 import { root } from './reducers/root'
-import { App } from './components/App/app'
+import { App } from './components/App'
 
 const store = createStore(root)
 const viewport = document.getElementById('viewport')
@@ -19,7 +19,7 @@ const render = () => renderDom(
 declare var module: any
 
 if (module.hot) {
-  module.hot.accept('./components/App/app', render)
+  module.hot.accept('./components/App', render)
 }
 
 render()

@@ -6,3 +6,6 @@ build
 
 # firebase credentials
 .firebaserc
+
+# prevent to commit auto-generated .d.ts
+src/**/*.d.ts
