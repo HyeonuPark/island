@@ -14,9 +14,7 @@ const hexCorners = new HexCoord(0, 0).cornersCoord()
 const polyPoints = ([] as number[]).concat(...hexCorners).join(' ')
 
 export const HexTile = pure(({x, y, size, isWater}: IHexTileProps) => (
-  <polygon
-    transform={`translate(${x},${y}) scale(${size})`}
-    points={polyPoints}
-    fill={isWater ? 'cyan' : 'brown'}
-  />
+  <g transform={`translate(${x},${y}) scale(${size})`}>
+    <polygon points={polyPoints} fill={isWater ? 'cyan' : 'brown'}/>
+  </g>
 ))
